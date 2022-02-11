@@ -1,0 +1,389 @@
+SLAM-Logger:: start!
+SLAM-Logger:: Press Ctrl+C to exit
+[1;31mORBThread:: Started![0m
+[1;31mORBThread:: ORB detector thread started.[0m
+[1;31mSLAMThread:: Started![0m
+[1;32msyncThread:: Video writer started.[0m
+
+[1;32msyncThread:: Started![0m
+[1;34mrealsenseThread:: Started![0m
+[1;34mserialThread:: Started[0m
+[1;34mrealsenseThread:: Realsense camera configured. Laser set to off.[0m
+[1;34mrealsenseThread:: Camera configured![0m
+[1;34mrealsenseThread:: FPS image: 37fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 5us map = 0.0 matched = 0[0m
+[1;31mSLAMThread:: SLAM FPS = 19.98fps[0m
+[1;32msyncThread:: SLAM Log FPS = 19.93fps[0m
+[1;34mserialThread:: FPS = 6216.97fps[0m
+[1;32msyncThread:: IMU FPS = 19.93fps[0m
+[1;31mSLAMThread:: next: 1810us map = 20.00 matched = 0[0m
+[1;31mSLAMThread:: next: 2136us map = 19.00 matched = 11[0m
+[1;31mSLAMThread:: next: 1961us map = 24.00 matched = 9[0m
+[1;31mSLAMThread:: next: 1847us map = 22.00 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1723us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1657us map = 24.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2066us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1590us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1570us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1634us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1807us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1625us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1962us map = 22.0 matched = 10[0m
+[1;31mSLAMThread:: next: 1708us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1586us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1588us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1587us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1885us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1632us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2017us map = 24.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1894us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1776us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1685us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1746us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1691us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1625us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1505us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1693us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1515us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1547us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1685us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1781us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1656us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1679us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1517us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1577us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1689us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1735us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1690us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1614us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1722us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1637us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2053us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1684us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1720us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1705us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1632us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1533us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2399us map = 21.0 matched = 10[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1573us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1680us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1574us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1600us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1536us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2115us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1803us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1614us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2096us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1504us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1677us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1512us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1558us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2301us map = 22.0 matched = 10[0m
+[1;31mSLAMThread:: next: 1612us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1914us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1587us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1741us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1631us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1563us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1666us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1661us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1896us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1520us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1725us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1622us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1524us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1658us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: SLAM FPS = 6.43fps[0m
+[1;31mSLAMThread:: next: 1488us map = 21.00 matched = 11[0m
+[1;32msyncThread:: SLAM Log FPS = 6.42fps[0m
+[1;31mSLAMThread:: next: 1470us map = 21.00 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1587us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1675us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1620us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1656us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1609us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1498us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1621us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1603us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1661us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1551us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1470us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1855us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1666us map = 23.0 matched = 11[0m
+[1;32msyncThread:: Features FPS = 4.24fps[0m
+[1;31mSLAMThread:: next: 1646us map = 22.00 matched = 11[0m
+[1;31mORBThread:: FPS = 4.26fps[0m
+[1;31mSLAMThread:: next: 1630us map = 21.00 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1647us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1522us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2092us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1770us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1584us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1613us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1681us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1744us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1515us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1531us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1766us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1538us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1524us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1493us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1807us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1586us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1549us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1662us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1858us map = 21.0 matched = 10[0m
+[1;31mSLAMThread:: next: 1518us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1528us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1835us map = 21.0 matched = 9[0m
+[1;31mSLAMThread:: next: 1550us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1701us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2086us map = 21.0 matched = 10[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1942us map = 21.0 matched = 11[0m
+[1;32mfifoThread:: SLAM FIFO in FPS = 0.00fps[0m
+[1;32mfifoThread:: SLAM FIFO in FPS = 95147.48fps[0m
+[1;31mSLAMThread:: next: 1620us map = 22.00 matched = 11[0m
+[1;31mSLAMThread:: next: 1579us map = 21.00 matched = 11[0m
+[1;31mSLAMThread:: next: 1617us map = 22.00 matched = 11[0m
+[1;31mSLAMThread:: next: 1555us map = 21.00 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1759us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1733us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1588us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1572us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1556us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1609us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1523us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1660us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1629us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1551us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1658us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1664us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1622us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1463us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1484us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1732us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1652us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1653us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2176us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1693us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1604us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1896us map = 21.0 matched = 10[0m
+[1;31mSLAMThread:: next: 1658us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1692us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1699us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1630us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1560us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1611us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1492us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1583us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1582us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1531us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1604us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1636us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1531us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1535us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1765us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1587us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1966us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1572us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1676us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1583us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1667us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1661us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1555us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1493us map = 22.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1590us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1560us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1515us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1592us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1560us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1454us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1571us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1495us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: SLAM FPS = 4.95fps[0m
+[1;31mSLAMThread:: next: 2239us map = 21.00 matched = 11[0m
+[1;32mfifoThread:: SLAM FIFO in FPS = 8.58fps[0m
+[1;32msyncThread:: SLAM Log FPS = 4.95fps[0m
+[1;31mSLAMThread:: next: 1494us map = 21.00 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1508us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1855us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1535us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1567us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1513us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1596us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1702us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1587us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1752us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1486us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1488us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1606us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2061us map = 22.0 matched = 10[0m
+[1;32msyncThread:: Features FPS = 4.95fps[0m
+[1;31mSLAMThread:: next: 1707us map = 21.00 matched = 11[0m
+[1;31mORBThread:: FPS = 4.95fps[0m
+[1;31mSLAMThread:: next: 1592us map = 22.00 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1743us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1583us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1513us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1527us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 6264us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1498us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1549us map = 21.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1603us map = 22.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1643us map = 23.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1657us map = 21.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1610us map = 24.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2209us map = 27.0 matched = 11[0m
+[1;31mSLAMThread:: next: 4193us map = 27.0 matched = 7[0m
+[1;31mSLAMThread:: next: 3006us map = 26.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2216us map = 26.0 matched = 8[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1954us map = 26.0 matched = 7[0m
+[1;31mSLAMThread:: next: 2107us map = 26.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2340us map = 26.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2287us map = 26.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2728us map = 26.0 matched = 9[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2176us map = 26.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2375us map = 26.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2042us map = 26.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2162us map = 26.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2209us map = 26.0 matched = 10[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2554us map = 26.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2174us map = 26.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2501us map = 26.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2015us map = 26.0 matched = 6[0m
+[1;31mSLAMThread:: next: 2199us map = 26.0 matched = 9[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2584us map = 26.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2639us map = 26.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2477us map = 26.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2343us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2011us map = 25.0 matched = 9[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2336us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2013us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 1968us map = 25.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2044us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2241us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2072us map = 25.0 matched = 10[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1973us map = 25.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2011us map = 25.0 matched = 7[0m
+[1;31mSLAMThread:: next: 1972us map = 25.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2000us map = 25.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2131us map = 25.0 matched = 10[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2179us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2057us map = 25.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1961us map = 25.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2151us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2106us map = 25.0 matched = 9[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 1959us map = 25.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2077us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 1986us map = 25.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1964us map = 25.0 matched = 11[0m
+[1;31mSLAMThread:: next: 2115us map = 25.0 matched = 9[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2444us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2008us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2111us map = 25.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2147us map = 25.0 matched = 10[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2207us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2104us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2124us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2168us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2248us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2050us map = 25.0 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2505us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 8233us map = 25.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2086us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2012us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2242us map = 25.0 matched = 10[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2031us map = 25.0 matched = 8[0m
+[1;31mSLAMThread:: next: 2185us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2171us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2406us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2119us map = 25.0 matched = 9[0m
+[1;34mrealsenseThread:: FPS image: 31fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2083us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2112us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2173us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2486us map = 25.0 matched = 9[0m
+[1;31mSLAMThread:: next: 2122us map = 25.0 matched = 10[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2271us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2136us map = 25.0 matched = 11[0m
+[1;31mSLAMThread:: next: 1977us map = 25.0 matched = 11[0m
+[1;31mSLAMThread:: SLAM FPS = 4.95fps[0m
+[1;31mSLAMThread:: next: 2112us map = 25.00 matched = 9[0m
+[1;32mfifoThread:: SLAM FIFO in FPS = 4.95fps[0m
+[1;32msyncThread:: SLAM Log FPS = 4.95fps[0m
+[1;31mSLAMThread:: next: 2691us map = 25.00 matched = 11[0m
+[1;34mrealsenseThread:: FPS image: 30fps; FPS IMU: 0fps[0m
+[1;31mSLAMThread:: next: 2546us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2146us map = 25.0 matched = 10[0m
+[1;31mSLAMThread:: next: 2087us map = 25.0 matched = 9[0m
+SLAM-Logger:: User stop requested!
+[1;31mSLAMThread:: next: 2194us map = 25.0 matched = 10[0m
+
+[1;34mserialThread:: 123total[0m
+
+[1;34mserialThread:: Finished![0m
+[1;34mrealsenseThread:: Finished![0m
+[1;31mORBThread:: 0total[0m
+[1;31mORBThread:: Finished![0m
+[1;31mSLAMThread:: next: 14us map = 25.0 matched = 0[0m
+Logging...
+[1;31mSLAMThread:: next: 16us map = 25.0 matched = 0[0m
+[1;31mSLAMThread:: Finished![0m
+[1;32msyncThread:: 708total[0m
+[1;32msyncThread:: Finished![0m
+
+SLAM-Logger:: Done!

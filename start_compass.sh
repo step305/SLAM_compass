@@ -1,0 +1,1 @@
+sudo python3 compass.py

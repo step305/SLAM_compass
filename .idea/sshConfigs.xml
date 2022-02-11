@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.0.27" id="a4162142-92db-45f7-84a4-8a160a270d04" port="22" customName="Jetson NX" nameFormat="CUSTOM" username="step305">
+        <option name="customName" value="Jetson NX" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="192.168.0.17" id="a76f7779-9055-4691-99c8-3f0888d0b3e6" port="22" customName="JetsonNanoB01" nameFormat="CUSTOM" username="step305" useOpenSSHConfig="true">
+        <option name="customName" value="JetsonNanoB01" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

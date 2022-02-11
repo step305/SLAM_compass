@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="afe3fa43-b16e-4dd5-9800-2e13c2f54ee4" name="Jetson NX">
+        <fileTransfer rootFolder="/home/step305" accessType="SFTP" host="192.168.0.27" port="22" sshConfigId="a4162142-92db-45f7-84a4-8a160a270d04" sshConfig="Jetson NX">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6dd302c7-764b-48f5-b40d-cd3150a38157" name="JetsonNanoB01">
+        <fileTransfer rootFolder="/home/step305" accessType="SFTP" host="192.168.0.17" port="22" sshConfigId="a76f7779-9055-4691-99c8-3f0888d0b3e6" sshConfig="JetsonNanoB01">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
