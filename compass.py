@@ -8,6 +8,8 @@ import socket
 import base64
 import numpy as np
 import cv2
+from scipy.optimize import curve_fit
+
 
 
 FIFO = '/home/step305/SLAM_FIFO.tmp'
@@ -15,7 +17,7 @@ FIFO = '/home/step305/SLAM_FIFO.tmp'
 
 
 earth_meas = [0, 0]
-TIME_MEASURE = 30
+TIME_MEASURE = 100
 TIME_SLEEP = 15
 
 data_ready = threading.Event()
@@ -44,7 +46,7 @@ def read_thread():
                         break
                     packet = json.loads(line)
                     if cnt == max_cnt:
-                        earth_meas = [heading_sum/cnt, crh_sum/cnt]
+                        earth_meas = [heading_sum/cnt, crh_sum/cnt/2]
                         data_ready.set()
                         heading_sum = 0
                         roll_sum = 0
@@ -70,6 +72,10 @@ def read_thread():
             break
 
 
+def fit_f(x, p1, p2, p3):
+    return p1 + p2*np.sin((p3+x)*np.pi/180)
+
+
 if __name__ == '__main__':
     print('Starting')
     #time.sleep(TIME_SLEEP)
@@ -79,6 +85,12 @@ if __name__ == '__main__':
     print_cnt = 0
     wait_line = '.' * 20
     time.sleep(5)
+    Nrun = 0
+    crhout0 = 0
+    crhout1 = 0
+    alfa1slam = 0
+    alfa0slam = 0
+    wN = 11.7
 
     while not quit_prog.is_set():
         com = input('rotate compass and press Enter (to stop - press q and Enter)')
@@ -113,4 +125,17 @@ if __name__ == '__main__':
         earth_meas_hist.sort(key=lambda x: x[0])
         for meas in earth_meas_hist:
             print('heading = {:.2f}deg -> CRH = {:.2f}dph'.format(meas[0], meas[1]))
+        Nrun = Nrun + 1
+        crhout0 = crhout1
+        crhout1 = eart_meas_sum[1]
+        alfa0slam = alfa1slam
+        alfa1slam = eart_meas_sum[0] * np.pi /180
+        if Nrun >= 4:
+            #azi = np.arccos((crhout0 - crhout1) /wN / (np.cos(alfa0slam) - np.cos(alfa1slam))) * 180 / np.pi
+            #print(crhout0, crhout1, alfa0slam,alfa1slam)
+            #print('Azi = ', azi, 'deg')
+            x = meas[0]
+            y = meas[1]
+            popt, pcov = curve_fit(fit_f, x, y, p0=(0.0, 10.2, 0))
+            print('null = {:.2f}dph\nmod = {:.2f}dph\nazi0 = {:.2f}deg'.format(popt[0], popt[1], popt[2]))
     reader.join()
