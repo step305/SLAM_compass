@@ -130,12 +130,12 @@ if __name__ == '__main__':
         crhout1 = eart_meas_sum[1]
         alfa0slam = alfa1slam
         alfa1slam = eart_meas_sum[0] * np.pi /180
-        if Nrun >= 4:
-            #azi = np.arccos((crhout0 - crhout1) /wN / (np.cos(alfa0slam) - np.cos(alfa1slam))) * 180 / np.pi
-            #print(crhout0, crhout1, alfa0slam,alfa1slam)
-            #print('Azi = ', azi, 'deg')
+        if Nrun >= 1:
+            azi = np.arccos((crhout0 - crhout1) /wN / (np.cos(alfa0slam) - np.cos(alfa1slam))) * 180 / np.pi
+            print(crhout0, crhout1, alfa0slam,alfa1slam)
+            print('Azi = ', azi, 'deg')
             x = meas[0]
             y = meas[1]
-            popt, pcov = curve_fit(fit_f, x, y, p0=(0.0, 10.2, 0))
-            print('null = {:.2f}dph\nmod = {:.2f}dph\nazi0 = {:.2f}deg'.format(popt[0], popt[1], popt[2]))
+            # popt, pcov = curve_fit(fit_f, x, y, p0=(0.0, 10.2, 0))
+            # print('null = {:.2f}dph\nmod = {:.2f}dph\nazi0 = {:.2f}deg'.format(popt[0], popt[1], popt[2]))
     reader.join()
