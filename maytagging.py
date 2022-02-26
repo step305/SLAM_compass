@@ -132,7 +132,7 @@ if __name__ == '__main__':
         alfa1slam = eart_meas_sum[0] * np.pi /180
         if Nrun >= 1:
             azi = np.arccos((crhout0 - crhout1) /wN / (np.cos(alfa0slam) - np.cos(alfa1slam))) * 180 / np.pi
-            print(crhout0, crhout1, alfa0slam,alfa1slam)
+            print(crhout0, crhout1, alfa0slam, alfa1slam)
             print('Azi = ', azi, 'deg')
             x = meas[0]
             y = meas[1]
